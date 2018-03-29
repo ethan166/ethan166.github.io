@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
     <!-- jQuery library -->
-    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
@@ -20,40 +21,12 @@ $(function(){
   $("#header").load("header.html"); 
   $("#footer").load("footer.html"); 
 });
-</script> 
-
-<style>
-
-    .navbar {
-      margin-bottom: 0;
-      border-radius: 0;
-    }
-    
-    /* Add a gray background color and some padding to the footer */
-    footer {
-      background-color: #f2f2f2;
-      padding: 25px;
-    }
-    
-  .carousel-inner img {
-      width: 100%; /* Set width to 100% */
-      margin: auto;
-      min-height:200px;
-  }
-
-  /* Hide the carousel text when the screen is less than 600 pixels wide */
-  @media (max-width: 600px) {
-    .carousel-caption {
-      display: none; 
-    }
-  }
-</style>
-
+</script>
 
     <meta charset="UTF-8">
 </head>
 <body>
-    <div id="header">
+     <div id="header">
 
        <div class="navbar navbar-default navbar-fixed-top">
     <div class="container">
@@ -72,35 +45,24 @@ $(function(){
           <li><a href="history.html">History</a></li>
           <li><a href="about.html">About</a></li>
 
-          <!--
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Action</a></li>
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Something else here</a></li>
-              <li class="divider"></li>
-              <li class="dropdown-header">Nav header</li>
-              <li><a href="#">Separated link</a></li>
-              <li><a href="#">One more separated link</a></li>
-            </ul>
-          </li>
-          -->
+         
+
 
         </ul>
       </div><!--/.nav-collapse -->
     </div>
     </div>
     </div>
-
+    
+    <br>
+    <br>
     <!-- body -->
+    
     <div class="container">
         <button onclick="topFunction()" id="myBtn" title="Go to top">&#8679</button>
-  	<hr>
-          <br>
-          <br>
+    <hr>
          <h2>Popular Burmese Dishes</h2>
-  	
+    
          <div class="row">
     <div class="col-md-4">
       <div class="thumbnail">
@@ -206,8 +168,8 @@ $(function(){
     </div>
   
 </div> 
-
-<div id="footer"></div>
+    
+    
 <script>
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
